@@ -19,13 +19,19 @@ const timedPromise = async () => {
   return "Hola soy una promesa";
 };
 
-boolStatus();
-timedPromise;
+console.log(boolStatus());
+console.log(timedPromise);
 
-function idGenerator() {
-    let x 
-  while (true) {
-    x = x * 2;
+function* idGenerator(x) {
+  while (x < 10) {
+    x++;
     yield x;
   }
 }
+
+console.log(idGenerator().next());
+console.log(idGenerator().next());
+console.log(idGenerator().next());
+console.log(idGenerator().next());
+console.log(idGenerator().next());
+console.log(idGenerator().next());
