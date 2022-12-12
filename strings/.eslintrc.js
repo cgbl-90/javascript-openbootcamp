@@ -16,5 +16,8 @@ module.exports = {
 };
 
 /* 
-All rules are here
-https://eslint.org/docs/latest/user-guide/configuring/rules */
+
+All rules are here:
+https://eslint.org/docs/latest/user-guide/configuring/rules 
+
+*/
