@@ -14,6 +14,8 @@ Crea un nuevo fichero JS que contenga las siguientes líneas
 
 - Haz la llamada al método obtenDatos
 
+Ejemplos: https://github.com/Open-Bootcamp/JavaScript-Basico/tree/main/sesion-11-programacion-orientada-a-objetos
+
 */
 
 const estudiante = {
